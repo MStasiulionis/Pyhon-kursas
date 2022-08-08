@@ -1,0 +1,15 @@
+h1 {
+    text-align: center
+}
+h1::before, h1::after {
+    content: " @ @ @ "
+}
+p::first-letter {
+  font-size: 200%;
+  color: #07db3f;
+}
+p::first-line {
+  color: red;
+  font-style: italic;
+  font-weight: bold
+}
