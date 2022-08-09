@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style_uz1.css" />
+    <title>Title</title>
+</head>
+<body>
+<div class="border">
+  <h1>Paiment form</h1>
+  <p>Required fiels are followed by *</p>
+  <h2>Contact information</h2>
+  <form action="#" method="POST">
+    <div class="title">
+    <fieldset>
+      <legend>Title</legend>
+      <input type="radio" id="mister" name="kreip" value="Mister">
+      <label for="mister">Mister</label><br>
+      <input type="radio" id="miss" name="kreip" value="Miss">
+      <label for="miss">Miss</label><br>
+    </fieldset>
+    </div>
+    <div class="forms">
+      <label for="fname" >First name: *</label>
+      <input type="text" id="fname" name="fname" required><br><br>
+      <label for="email">Email: *</label>
+      <input type="text" id="email" name="lname" required><br><br>
+      <label for="pass">Password: *</label>
+      <input type="password" id="pass" name="password" required><br><br>
+    </div>
+    <h2>Payment information</h2>
+
+    <div class="forms">
+      <label for="cards">Card type</label>
+      <select name="cards" id="cards">
+        <option value="maestro">Maestro</option>
+        <option value="mastercard">Mastercard</option>
+        <option value="visa">Visa</option>
+      </select><br></br>
+      <label for="card_nr">Card Number: *</label>
+      <input type="text" id="card_nr" name="card_nr" required><br><br>
+      <label for="exp_date">Expiration date: *</label>
+      <input type="text" id="exp_date" name="exp_date" required>
+      <p class="formatted">formatted as mm/yy</p>
+    </div>
+    <input type="submit" value="Validate the payment">
+  </form>
+</div>
+</body>
+</html>
