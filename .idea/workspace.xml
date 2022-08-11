@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fb9c002-7520-4734-91f7-f071262ff13e" name="Changes" comment="add">
-      <change afterPath="$PROJECT_DIR$/HTML/paskaita7/style_uz1.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/paskaita7/uzduotis1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/paskaita8/style_uz1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/paskaita8/style_uz2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/paskaita8/uzduotis1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/paskaita8/uzduotis2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +40,7 @@
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Mykolas/PycharmProjects/Naujas_lygis/HTML_paskaita/paskaita_4&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Mykolas/PycharmProjects/Naujas_lygis/HTML/paskaita8&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -49,6 +51,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Mykolas\PycharmProjects\Naujas_lygis\HTML\paskaita8" />
       <recent name="C:\Users\Mykolas\PycharmProjects\Naujas_lygis\HTML_paskaita\paskaita_4" />
       <recent name="C:\Users\Mykolas\PycharmProjects\Naujas_lygis\HTML_paskaita" />
     </key>
@@ -223,7 +226,13 @@
       <option name="presentableId" value="LOCAL−00003" />
       <updated>1660065808728</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL−00004" summary="add">
+      <created>1660071708164</created>
+      <option name="number" value="LOCAL−00004" />
+      <option name="presentableId" value="LOCAL−00004" />
+      <updated>1660071708164</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
