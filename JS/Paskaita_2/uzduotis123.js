@@ -19,3 +19,23 @@ switch(car)  {
     default:
     console.log('Your car dont belong to any group')
 }
+let userInput = 'Obuolys';
+
+switch(userInput) {
+    case "Slyva":
+    case "Obuolys":
+    case "Bananas":
+    case "Kriaušė":
+    case "Apelsinas":
+    console.log('Vaisius');
+    break;
+    case "Bulvė":
+    case "Agurkas":
+    case "Svogūnas":
+    case "Česnakas":
+    case "Baklažanas":
+    console.log('Daržovė');
+    break;
+    default:
+    console.log('Not in the list!')
+}
