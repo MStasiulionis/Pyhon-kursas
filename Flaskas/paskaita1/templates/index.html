@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Demo</title>
+</head>
+<body>
+    <h1>Straipsniai</h1>
+    <br><br>
+    {% for straipsnis in data %}
+    {% if straipsnis['status'] == 'published' %}
+    <h3>{{ straipsnis['pavadinimas'] }}</h3>
+    <p>{{ straipsnis['data'] }}, {{ straipsnis['autorius'] }}</p>
+    <hr>
+    <p>{{ straipsnis['tekstas'] }}</p>
+    <hr>
+    {% else %}
+    <h3>{{ straipsnis['pavadinimas'] }} - <i>Publikavimas laikinai išjungtas</i></h3>
+    <br><br>
+    {% endif %}
+    {% endfor %}
+</body>
+</html>

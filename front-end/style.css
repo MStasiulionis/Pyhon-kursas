@@ -1,0 +1,20 @@
+
+
+header {
+    height: 100px;
+    background-color: #F1E9DE;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+  }
+#logo img {
+    height: 90px;
+  }
+nav a {
+    font-size: 1.1em;
+    text-decoration: none;
+    color: #3b4205;
+    padding: 0 10px;
+    margin-right: 20px;
+  }
