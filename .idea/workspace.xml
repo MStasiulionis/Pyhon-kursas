@@ -2,49 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fb9c002-7520-4734-91f7-f071262ff13e" name="Changes" comment="add">
-      <change afterPath="$PROJECT_DIR$/Flaskas/paskaita1/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/paskaita1/src/article.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/paskaita1/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/paskaita1/uzduotis1/album.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/paskaita1/uzduotis1/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/paskaita1/uzduotis1/dist/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/paskaita1/uzduotis1/dist/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/paskaita1/uzduotis1/dist/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/paskaita1/uzduotis1/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/paskaita1/uzduotis1/templates/something.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/DOM/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/DOM/index2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/DOM/index3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/DOM/uzduotis1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/DOM/uzduotis2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/DOM/uzduotis3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/DOM/uzduotis4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/DOM/uzduotis5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/Formos/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/Formos/index2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/Formos/index3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/Formos/uzduotis1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/Formos/uzduotis2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/ToDoApp/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/ToDoApp/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/ToDoApp/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/cookies/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/cookies/uzduotis1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/masyvai-objektai/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/masyvai-objektai/paskaita10/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/masyvai-objektai/paskaita10/uzduotis1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/masyvai-objektai/paskaita10/uzduotis2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/masyvai-objektai/paskaita10/uzduotis3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/masyvai-objektai/paskaita10/uzduotis4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/masyvai-objektai/uzduotis1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/masyvai-objektai/uzduotis2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/masyvai-objektai/uzduotis3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/masyvai-objektai/uzduotis4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-end/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-end/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flaskas/paskaita1/templates/article.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flaskas/paskaita1/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flaskas/paskaita2/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flaskas/paskaita2/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flaskas/paskaita2/src/data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flaskas/paskaita2/templates/add_article.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flaskas/paskaita2/templates/article.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flaskas/paskaita2/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flaskas/paskaita2/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Naujas_lygis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Naujas_lygis.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flaskas/paskaita1/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/Flaskas/paskaita1/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flaskas/paskaita1/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Flaskas/paskaita1/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,13 +24,20 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Flaskas/paskaita2/app.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Flaskas/paskaita2/src/data.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Flaskas/paskaita2/templates/add_article.html" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Flaskas/paskaita2/templates/article.html" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Flaskas/paskaita2/templates/index.html" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -78,8 +55,8 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Mykolas/PycharmProjects/Naujas_lygis/Flaskas/paskaita1/uzduotis1",
-    "settings.editor.selected.configurable": "advanced.settings"
+    "last_opened_file_path": "C:/Users/Mykolas/PycharmProjects/Naujas_lygis/Flaskas/paskaita2",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   },
   "keyToStringList": {
     "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
@@ -89,21 +66,21 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Mykolas\PycharmProjects\Naujas_lygis\Flaskas\paskaita2" />
+      <recent name="C:\Users\Mykolas\PycharmProjects\Naujas_lygis\Flaskas\paskaita1\templates" />
       <recent name="C:\Users\Mykolas\PycharmProjects\Naujas_lygis\Flaskas\paskaita1\uzduotis1" />
       <recent name="C:\Users\Mykolas\PycharmProjects\Naujas_lygis\JS\masyvai-objektai\paskaita10" />
       <recent name="C:\Users\Mykolas\PycharmProjects\Naujas_lygis\JS\Paskaita_3" />
-      <recent name="C:\Users\Mykolas\PycharmProjects\Naujas_lygis\JS\Paskaita_1" />
-      <recent name="C:\Users\Mykolas\PycharmProjects\Naujas_lygis\HTML\paskaita8" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Mykolas\PycharmProjects\Naujas_lygis\Flaskas\paskaita1" />
+      <recent name="C:\Users\Mykolas\PycharmProjects\Naujas_lygis\Flaskas\paskaita2" />
+      <recent name="C:\Users\Mykolas\PycharmProjects\Naujas_lygis\Flaskas" />
       <recent name="C:\Users\Mykolas\PycharmProjects\Naujas_lygis\Flaskas\paskaita1\uzduotis1\templates" />
       <recent name="C:\Users\Mykolas\PycharmProjects\Naujas_lygis\Flaskas\paskaita1\uzduotis1\dist" />
-      <recent name="C:\Users\Mykolas\PycharmProjects\Naujas_lygis\Flaskas\paskaita1\uzduotis1" />
-      <recent name="C:\Users\Mykolas\PycharmProjects\Naujas_lygis\Flaskas\paskaita1\uzduotis1\css" />
-      <recent name="C:\Users\Mykolas\PycharmProjects\Naujas_lygis\Flaskas\paskaita1\templates" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.app (1)">
+  <component name="RunManager" selected="Python.app (2)">
     <configuration name="app (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Naujas_lygis" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -125,6 +102,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="app (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Naujas_lygis" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Flaskas/paskaita2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Flaskas/paskaita2/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Naujas_lygis" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -137,7 +135,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Flaskas/paskaita1/app.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Mykolas\PycharmProjects\Naujas_lygis\Flaskas\paskaita1\app.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -209,34 +207,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="zaidimas" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Naujas_lygis" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Paskolos" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Paskolos/zaidimas.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.app (1)" />
+        <item itemvalue="Python.app (2)" />
         <item itemvalue="Python.app" />
+        <item itemvalue="Python.app (1)" />
         <item itemvalue="Python.egzaminavimas" />
         <item itemvalue="Python.uzduotis_bankai" />
-        <item itemvalue="Python.zaidimas" />
       </list>
     </recent_temporary>
   </component>
@@ -297,7 +274,13 @@
       <option name="presentableId" value="LOCAL−00008" />
       <updated>1661191896304</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL−00009" summary="add">
+      <created>1662403668267</created>
+      <option name="number" value="LOCAL−00009" />
+      <option name="presentableId" value="LOCAL−00009" />
+      <updated>1662403668267</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -327,6 +310,21 @@
           <url>file://$PROJECT_DIR$/venv/Lib/site-packages/flask_sqlalchemy/__init__.py</url>
           <line>1</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Flaskas/paskaita1/uzduotis1/app.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Flaskas/paskaita1/app.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Flaskas/paskaita2/app.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
