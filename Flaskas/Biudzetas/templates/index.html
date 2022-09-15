@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block body %}
+    <div class="input-container">
+           <form action="#" method="POST">
+                {{ form.hidden_tag() }}
+                {{ form.income }}
+                {{ form.type }}
+                {{ form.submit }}
+        </form>
+    </div>
+    <ul id="income">
+        {% for value in budget %}
+		<li class="list-item">
+			<div class="text">{{ value.income }}€</div>
+            <div class="text">{{ value.type }}</div>
+            <div class="text">{{ value.date_created }}</div>
+        </li>
+        {% endfor %}
+	</ul>
+{% endblock %}

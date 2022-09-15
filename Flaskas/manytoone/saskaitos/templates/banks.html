@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+{% if all_banks %}
+    {% for bank in all_banks %}
+        <hr>
+        <p>{{bank.bank_name}}</p>
+        <p>{{bank.adress}}</p>
+        <p>{{bank.bank_code}}</p>
+        <p>{{bank.swift_code}}</p>
+        {% if bank.account %}
+            <p>Banke esamos sąskaitos:</p>
+            {% for account in bank.account %}
+            <p>{{account.acc_number}} {{account.balance}}</p>
+            {% endfor %}
+        {% endif %}
+        <a href="{{ url_for('bank_delete', id=bank['id']) }}">Ištrinti</a>
+        <a href="{{ url_for('bank_update', id=bank['id']) }}">Redaguoti</a>
+    {% endfor %}
+{% endif %}
+<hr>
+<p><a href="{{ url_for('add_bank')}}">Naujas bankas</a></p>
+
+{% endblock %}

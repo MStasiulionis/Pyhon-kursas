@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+{% if all_people %}
+    {% for person in all_people %}
+        <hr>
+        <p>{{person.fname}}</p>
+        <p>{{person.lname}}</p>
+        <p>{{person.code}}</p>
+        <p>{{person.phone}}</p>
+        {% if person.account %}
+            <p>Sąskaita:</p>
+            {% for account in person.account %}
+                <p>{{account.acc_number}} {{account.balance}}</p>
+            {% endfor %}
+        {% endif %}
+        <a href="{{ url_for('bank_delete', id=person['id']) }}">Ištrinti</a>
+        <a href="{{ url_for('bank_update', id=person['id']) }}">Redaguoti</a>
+    {% endfor %}
+{% endif %}
+<hr>
+<p><a href="{{ url_for('add_person')}}">Naujas asmuo</a></p>
+
+{% endblock %}

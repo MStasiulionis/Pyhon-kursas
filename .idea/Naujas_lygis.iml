@@ -4,6 +4,7 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/Flaskas/paskaita1/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Flaskas/paskaita2/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Flaskas/paskaita2/uzduotis1/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>
     <orderEntry type="inheritedJdk" />

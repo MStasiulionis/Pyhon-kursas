@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<form method="post" action="#">
+    {{ form.hidden_tag() }}
+    <div class="form-group">
+        {{ form.bank_name.label(class="form-control-label") }}
+        {{ form.bank_name(class="form-control", value=bank.bank_name) }}
+    </div>
+    <div class="form-group">
+        {{ form.adress.label(class="form-control-label") }}
+        {{ form.adress(class="form-control", value=bank.adress) }}
+    </div>
+    <div class="form-group">
+        {{ form.bank_code.label(class="form-control-label") }}
+        {{ form.bank_code(class="form-control", value=bank.bank_code) }}
+    </div>
+    <div class="form-group">
+        {{ form.swift_code.label(class="form-control-label") }}
+        {{ form.swift_code(class="form-control", value=bank.swift_code) }}
+    </div>
+    {{ form.submit }}
+</form>
+{% endblock %}

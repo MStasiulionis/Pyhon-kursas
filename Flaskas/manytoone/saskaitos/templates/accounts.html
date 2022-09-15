@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+{% if all_accounts %}
+    {% for account in all_accounts %}
+        <hr>
+        <p>{{account.acc_number}}</p>
+        <p>{{account.balance}}</p>
+        {% if account.person %}
+            <p>Sąskaitų turėtojai:</p>
+            <p>{{account.person.fname}} {{account.person.lname}}</p>
+        {% endif %}
+        {% if account.banks %}
+            <p>Sąskaita yra banke:</p>
+            <p>{{account.bank.bank_name}} {{account.bank.adress}}</p>
+        {% endif %}
+    <a href="{{ url_for('account_delete', id=account['id']) }}">Ištrinti</a>
+    {% endfor %}
+{% endif %}
+<hr>
+<p><a href="{{ url_for('add_account')}}">Nauja sąskaita</a></p>
+
+{% endblock %}
