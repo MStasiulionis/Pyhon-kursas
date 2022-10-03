@@ -39,9 +39,9 @@ def index():
     data = Message.query.all()[::-1]
     form = MessageForm()
     if form.validate_on_submit():
-        fname = form.fname.data
-        lname = form.lname.data
-        comment = form.comment.data
+        fname = form.fname.date
+        lname = form.lname.date
+        comment = form.comment.date
         now = datetime.now()
         date = now.strftime("%d/%m/%Y %H:%M:%S")
         entry = Message(fname=fname, lname=lname, comment=comment, date=date)

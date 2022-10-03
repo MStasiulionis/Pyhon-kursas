@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+    {% if all_data %}
+        {% for data in all_data %}
+            <hr>
+            {% if data.income %}
+                <p>Pajamos: {{data.amount}}</p>
+                <p>Data: {{ datetime.strftime(data.date, "%Y-%m-%d %H:%M:%S")}}</p>
+            {% else %}
+                <p>Išlaidos: {{data.amount}}</p>
+                <p>Data: {{ datetime.strftime(data.date, "%Y-%m-%d %H:%M:%S")}}</p>
+            {% endif %}
+            <a href="{{ url_for('delete', id=data['id']) }}">Ištrinti</a>
+            <a href="{{ url_for('update', id=data['id']) }}">Redaguoti</a>
+        {% endfor %}
+        <hr>
+    {% endif %}
+
+    <p><a href="{{ url_for('new_data')}}">Naujas įrašas</a></p>
+
+{% endblock %}

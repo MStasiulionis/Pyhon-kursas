@@ -5,6 +5,8 @@
       <sourceFolder url="file://$MODULE_DIR$/Flaskas/paskaita1/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Flaskas/paskaita2/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Flaskas/paskaita2/uzduotis1/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Flaskas/pass_reset/models" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Flaskas/prekiu_uzsakymas/models" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>
     <orderEntry type="inheritedJdk" />

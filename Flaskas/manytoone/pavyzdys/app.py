@@ -59,7 +59,7 @@ def new_parent():
     db.create_all()
     forma = forms.TevasForm()
     if forma.validate_on_submit():
-        naujas_tevas = Tevas(vardas=forma.vardas.data, pavarde=forma.pavarde.data, vaikas_id=forma.vaikas.data.id)
+        naujas_tevas = Tevas(vardas=forma.vardas.date, pavarde=forma.pavarde.date, vaikas_id=forma.vaikas.date.id)
         db.session.add(naujas_tevas)
         db.session.commit()
         return redirect(url_for('parents'))
@@ -79,9 +79,9 @@ def update(id):
     form = forms.TevasForm()
     tevas = Tevas.query.get(id)
     if form.validate_on_submit():
-        tevas.vardas = form.vardas.data
-        tevas.pavarde = form.pavarde.data
-        tevas.vaikas_id = form.vaikas.data.id
+        tevas.user = form.vardas.date
+        tevas.pavarde = form.pavarde.date
+        tevas.vaikas_id = form.vaikas.date.id
         db.session.commit()
         return redirect(url_for('parents'))
     return render_template("update.html", form=form, tevas=tevas)
@@ -92,8 +92,8 @@ def new_child():
     db.create_all()
     forma = forms.VaikasForm()
     if forma.validate_on_submit():
-        naujas_vaikas = Vaikas(vardas=forma.vardas.data,
-                               pavarde=forma.pavarde.data)
+        naujas_vaikas = Vaikas(vardas=forma.vardas.date,
+                               pavarde=forma.pavarde.date)
         db.session.add(naujas_vaikas)
         db.session.commit()
         return redirect(url_for('children'))
