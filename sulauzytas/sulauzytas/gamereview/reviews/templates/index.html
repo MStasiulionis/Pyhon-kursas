@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% load static %}
+{% block content %}
+<html>
+<head></head>
+
+<body>
+    <h1>{% trans "Welcome to game reviews" %}</h1>
+    <h4>{% trans "Latest review:" %}</h4>
+    <div class="col-md-4">
+        <h3>{{ title }}</h3>
+
+        {% if cover %}
+            <img src="{{ cover.url }}" class="card-img-top" alt="...">
+        {% else %}
+            <img src="{% static 'img/no-image.png' %}" class="card-img-top">
+        {% endif %}
+
+        <p><strong>Publisher: </strong>{{ game_publisher }}</a></p>
+        <p><strong>Review: </strong>{{ content }}</p>
+    </br>
+    </div>
+</body>
+
+</html>
+
+{% endblock content %}

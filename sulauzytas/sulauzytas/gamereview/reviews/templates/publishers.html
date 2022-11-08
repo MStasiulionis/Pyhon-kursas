@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <div class="container author">
+        </br>
+        <h5>We have reviewed games released from these publishers:</h5>
+        {% for publisher in publisher_list %}
+            <li><a href="{% url 'publisher' publisher.id %}">{{publisher.name}} </a></li>
+        {% endfor %}
+    </div>
+{% endblock %}
