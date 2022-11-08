@@ -2,107 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fb9c002-7520-4734-91f7-f071262ff13e" name="Changes" comment="add">
-      <change afterPath="$PROJECT_DIR$/Flaskas/Loginai/LoginBiudzetas/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/Loginai/LoginBiudzetas/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/Loginai/LoginBiudzetas/templates/account.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/Loginai/LoginBiudzetas/templates/add_data.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/Loginai/LoginBiudzetas/templates/balance.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/Loginai/LoginBiudzetas/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/Loginai/LoginBiudzetas/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/Loginai/LoginBiudzetas/templates/inputs.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/Loginai/LoginBiudzetas/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/Loginai/LoginBiudzetas/templates/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/Loginai/LoginBiudzetas/templates/update.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/Loginai/madziaga/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/Loginai/madziaga/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/Loginai/madziaga/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/Loginai/madziaga/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/Loginai/madziaga/templates/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/Picture-admin/Login-avatar-admin/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/Picture-admin/Login-avatar-admin/biudzetas.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/Picture-admin/Login-avatar-admin/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/Picture-admin/Login-avatar-admin/templates/account.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/Picture-admin/Login-avatar-admin/templates/add_data.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/Picture-admin/Login-avatar-admin/templates/balance.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/Picture-admin/Login-avatar-admin/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/Picture-admin/Login-avatar-admin/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/Picture-admin/Login-avatar-admin/templates/inputs.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/Picture-admin/Login-avatar-admin/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/Picture-admin/Login-avatar-admin/templates/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/Picture-admin/Login-avatar-admin/templates/update.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/manyTOmany/pavyzdys/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/manyTOmany/pavyzdys/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/manyTOmany/pavyzdys/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/manyTOmany/pavyzdys/templates/prideti_teva.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/manyTOmany/pavyzdys/templates/prideti_vaika.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/manyTOmany/pavyzdys/templates/tevai.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/manyTOmany/pavyzdys/templates/vaikai.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/manyTOmany/studentai/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/manyTOmany/studentai/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/manyTOmany/studentai/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/manyTOmany/studentai/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/pass_reset/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/pass_reset/db.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/pass_reset/models/User.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/pass_reset/password.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/pass_reset/scr/articles.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/pass_reset/scr/file_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/pass_reset/scr/forms/article_form.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/pass_reset/scr/forms/login_form.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/pass_reset/scr/forms/profile_form.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/pass_reset/scr/forms/registration_form.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/pass_reset/scr/forms/request_reset_form.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/pass_reset/static/starter_template.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/pass_reset/templates/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/pass_reset/templates/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/pass_reset/templates/add_article.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/pass_reset/templates/add_article_wtf.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/pass_reset/templates/add_success.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/pass_reset/templates/article.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/pass_reset/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/pass_reset/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/pass_reset/templates/info.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/pass_reset/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/pass_reset/templates/profile.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/pass_reset/templates/registration.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/pass_reset/templates/resert_token.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/pass_reset/templates/reset_request.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/prekiu_uzsakymas/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/prekiu_uzsakymas/db.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/prekiu_uzsakymas/models/Products.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/prekiu_uzsakymas/models/User.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/prekiu_uzsakymas/password.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/prekiu_uzsakymas/scr/file_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/prekiu_uzsakymas/scr/forms/login_form.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/prekiu_uzsakymas/scr/forms/product_form.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/prekiu_uzsakymas/scr/forms/profile_form.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/prekiu_uzsakymas/scr/forms/registration_form.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/prekiu_uzsakymas/scr/forms/request_reset_form.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/prekiu_uzsakymas/static/avatars/602rjwyKoFc.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/prekiu_uzsakymas/static/avatars/default.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/prekiu_uzsakymas/static/starter_template.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/prekiu_uzsakymas/templates/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/prekiu_uzsakymas/templates/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/prekiu_uzsakymas/templates/add_product.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/prekiu_uzsakymas/templates/add_success.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/prekiu_uzsakymas/templates/article.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/prekiu_uzsakymas/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/prekiu_uzsakymas/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/prekiu_uzsakymas/templates/info.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/prekiu_uzsakymas/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/prekiu_uzsakymas/templates/profile.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/prekiu_uzsakymas/templates/registration.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/prekiu_uzsakymas/templates/resert_token.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/prekiu_uzsakymas/templates/reset_request.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/py-email/el_pastas.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flaskas/py-email/skola.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django/ivadas/helloworld/library/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django/ivadas/ivadas.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Naujas_lygis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Naujas_lygis.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django/models/autoservisas/autoservice/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django/models/autoservisas/autoservice/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django/models/autoservisas/autoservice/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django/models/autoservisas/autoservice/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django/models/mysite/library/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django/models/mysite/library/signals.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django/models/mysite/library/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django/models/mysite/library/templates/author.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django/models/mysite/library/templates/authors.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django/models/mysite/library/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django/models/mysite/library/templates/book_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django/models/mysite/library/templates/book_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django/models/mysite/library/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django/models/mysite/library/templates/profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django/models/mysite/library/templates/registration/logged_out.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django/models/mysite/library/templates/registration/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django/models/mysite/library/templates/registration/password_reset_complete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django/models/mysite/library/templates/registration/password_reset_confirm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django/models/mysite/library/templates/registration/password_reset_done.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django/models/mysite/library/templates/registration/password_reset_email.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django/models/mysite/library/templates/registration/password_reset_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django/models/mysite/library/templates/registration/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django/models/mysite/library/templates/search.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django/models/mysite/library/templates/user_books.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django/models/mysite/library/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flaskas/ORM/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/Flaskas/ORM/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flaskas/manytoone/pavyzdys/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/Flaskas/manytoone/pavyzdys/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flaskas/manytoone/saskaitos/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/Flaskas/manytoone/saskaitos/app.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,8 +37,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -144,7 +69,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Mykolas/Desktop/flask-uzduotis&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Mykolas/PycharmProjects/Naujas_lygis&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -387,7 +312,19 @@
       <option name="presentableId" value="LOCAL−00012" />
       <updated>1663257689972</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL−00013" summary="add">
+      <created>1664821246650</created>
+      <option name="number" value="LOCAL−00013" />
+      <option name="presentableId" value="LOCAL−00013" />
+      <updated>1664821246651</updated>
+    </task>
+    <task id="LOCAL−00014" summary="add">
+      <created>1664821255423</created>
+      <option name="number" value="LOCAL−00014" />
+      <option name="presentableId" value="LOCAL−00014" />
+      <updated>1664821255423</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
