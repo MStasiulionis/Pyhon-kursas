@@ -2,31 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fb9c002-7520-4734-91f7-f071262ff13e" name="Changes" comment="add">
-      <change afterPath="$PROJECT_DIR$/django/models/autoservisas/autoservice/static/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django/models/autoservisas/autoservice/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django/models/autoservisas/autoservice/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django/models/autoservisas/autoservice/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django/models/mysite/library/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django/models/mysite/library/signals.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django/models/mysite/library/static/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django/models/mysite/library/templates/author.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django/models/mysite/library/templates/authors.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django/models/mysite/library/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django/models/mysite/library/templates/book_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django/models/mysite/library/templates/book_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django/models/mysite/library/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django/models/mysite/library/templates/profile.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django/models/mysite/library/templates/registration/logged_out.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django/models/mysite/library/templates/registration/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django/models/mysite/library/templates/registration/password_reset_complete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django/models/mysite/library/templates/registration/password_reset_confirm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django/models/mysite/library/templates/registration/password_reset_done.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django/models/mysite/library/templates/registration/password_reset_email.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django/models/mysite/library/templates/registration/password_reset_form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django/models/mysite/library/templates/registration/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django/models/mysite/library/templates/search.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django/models/mysite/library/templates/user_books.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django/models/mysite/library/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django/REST_api/api_example/postit_api/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django/REST_api/api_example/postit_api/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,8 +14,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -324,7 +301,19 @@
       <option name="presentableId" value="LOCAL−00014" />
       <updated>1664821255423</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL−00015" summary="add">
+      <created>1667924019631</created>
+      <option name="number" value="LOCAL−00015" />
+      <option name="presentableId" value="LOCAL−00015" />
+      <updated>1667924019631</updated>
+    </task>
+    <task id="LOCAL−00016" summary="add">
+      <created>1667924077374</created>
+      <option name="number" value="LOCAL−00016" />
+      <option name="presentableId" value="LOCAL−00016" />
+      <updated>1667924077374</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
